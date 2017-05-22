@@ -5,7 +5,7 @@ WannaCryは、LANの中ではsmb(445/TCP)で感染するということなので
 ミラーしたセグメントのパケットをtcpdumpでキャプチャし、PHPのスクリプトで観測したパケットの数を可視化します。
 使い方は、次のような感じ、、、
 
-#tcpdump -ntttti eth0 port 445 | visualize.php
+#tcpdump -ntttti eth0 port 445 | PacketViewer.php
 
 PackerViewer.php は、定期的にhtmlファイルを生成します
 利用者はブラウザでこのhtmlファイルを閲覧します。
@@ -17,3 +17,4 @@ htmlファイルは (例えば10秒毎に)自身をrefreshしています。
 マスの上にマウスを移動させると、対象端末のIPアドレスが表示されます。
 
 普段とは異なる端末間で445/TCPの通信が発生した場合の検知に役立つかも？
+
