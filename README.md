@@ -19,4 +19,4 @@ htmlファイルは (例えば10秒毎に)自身をrefreshしています。
 
 普段とは異なる端末間で445/TCPの通信が発生した場合の検知に役立つかも？
 
-![表示例](https://github.com/crescentvenus/PacketViewer/blob/master/packet.png)
+![表示例](https://github.com/crescentvenus/PacketViewer/blob/master/p445.png)
