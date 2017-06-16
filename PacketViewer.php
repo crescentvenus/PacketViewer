@@ -9,10 +9,10 @@
 $HTML = "/var/www/html/port445.html";
 
 // 観測対象のサブネットアドレスと表示のカラーを設定
-$NET_ADDR=array("192.168.1"=>"lightgreen","192.168.2"=>"yellow","10.0.224"=>"lightblue");
+$NET_ADDR=array("192.168.1"=>"lightgreen","192.168.2"=>"yellow","10.0.1"=>"lightblue");
 
 // ドメインコントローラやファイルサーバー等のホスト名を設定。
-$SERVER=array("192.168.1.240"=>"DC-1","192.168.1.241"=>"File-1","192.168.2.242"=>"File-2");
+$SERVER=array("192.168.1.240"=>"DC-1","192.168.1.241"=>"File-1","192.168.2.242"=>"File-4");
 
 // ノードのマトリクス初期化
 foreach($NET_ADDR as $NET =>$color){
